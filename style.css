@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 30px 90px;
+}
+header .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(181, 179, 185);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+nav a:hover{
+    color: black;
+}
+#hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero{
+    padding: 30px 90px;
+}
+.content h1{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 48px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+}
+.content p{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 21px;
+font-weight: 200;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin: 30px 0px;
+}
+.content button{
+    width: 197.75px;
+height: 49.12px;
+border-radius: 55px;
+border: none;
+color: white;
+background: rgb(69, 143, 246);
+}
+.content{
+    width: 421px;
+    
+}
+h2{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 36px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+}
+.yozuv{
+    margin-top: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ p{
+    margin-top: 61px;
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+.box{
+   padding: 40px;
+    margin-top: 31px;
+    width: 380px;
+height: 380px;
+border-radius: 20px;
+
+
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+background: rgb(231, 231, 231);
+}
+.box p{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+
+}
+.box:hover{
+    background: rgb(90, 152, 242);
+    
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+button{
+    color: rgb(69, 143, 246);
+    margin-left: 600px;
+    width: 200px;
+height: 56.74px;
+border: 1.4px solid rgb(69, 143, 246);
+border-radius: 55px;
+background-color: white;
+}
